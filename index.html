@@ -3,7 +3,6 @@
 
 <head>
     <meta name="viewport">
-    <script src="app.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
@@ -14,6 +13,25 @@
     <meta name="theme-color" content="#8e1414">
     <link rel="stylesheet" href="app.css">
 </head>
+<script>
+    window.addEventListener('load', () => {
+        registerSW();
+    });
+
+    // Register the Service Worker
+    async function registerSW() {
+        if ('serviceWorker' in navigator) {
+            try {
+                await navigator
+                    .serviceWorker
+                    .register('serviceworker.js');
+            }
+            catch (e) {
+                console.log('SW registration failed');
+            }
+        }
+    }
+</script>
 
 <body>
     <ul>
