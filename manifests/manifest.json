@@ -1,0 +1,17 @@
+{
+    "name": "Custom App thingy",
+    "short_name": "CAT",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#8e1414",
+    "theme_color": "#8e1414",
+    "scope": ".",
+    "description": "This is a CAT tutorial.",
+    "icons": [
+        {
+            "src": "images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
