@@ -1,0 +1,1 @@
+import{t as e,a as t}from"../chunks/CuIn7ALo.js";import"../chunks/D_AAF-Xw.js";import{f as m,n}from"../chunks/CiK-ySIN.js";import{N as p}from"../chunks/C3LwJpJM.js";var i=e("<!> <main>Things Should GO here</main>",1);function g(r){var a=i(),o=m(a);p(o,{page:"Membership"}),n(2),t(r,a)}export{g as component};

@@ -1,0 +1,1 @@
+import{t,a as e}from"../chunks/CuIn7ALo.js";import"../chunks/D_AAF-Xw.js";import{f as m,n}from"../chunks/CiK-ySIN.js";import{N as p}from"../chunks/C3LwJpJM.js";var i=t("<!> <main>Things Should GO here</main>",1);function h(r){var a=i(),o=m(a);p(o,{page:"IEEE"}),n(2),e(r,a)}export{h as component};

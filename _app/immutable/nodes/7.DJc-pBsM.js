@@ -1,0 +1,1 @@
+import{t,a as e}from"../chunks/CuIn7ALo.js";import"../chunks/D_AAF-Xw.js";import{f as m,n}from"../chunks/CiK-ySIN.js";import{N as i}from"../chunks/C3LwJpJM.js";var p=t("<!> <main>Things Should GO here</main>",1);function g(r){var a=p(),o=m(a);i(o,{page:"Officers"}),n(2),e(r,a)}export{g as component};
